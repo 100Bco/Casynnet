@@ -1,0 +1,242 @@
+Casyn Landing Page Prompt
+Objective: Design a sleek, modern landing page for Casyn, a trusted distributor and affiliate in the casino software and hardware industry.
+
+🎯 Target Audience:
+Casino operators and game room managers seeking reliable CMS solutions.
+
+Businesses interested in sports betting kiosk installations.
+
+Potential partners looking for affiliate opportunities in the gaming sector.
+Kiosk Self Service Manufacturers
++9
+Scaleo
++9
+Behance
++9
+GammaStack
++5
+Elo Touchscreens
++5
+Cash Titan
++5
+
+🖥️ Hero Section
+Headline:
+“Powering the Future of Casino Management and Sports Betting”
+
+Subheadline:
+“Casyn: Your Trusted Partner in Casino Software, Hardware, and Affiliate Solutions”
+
+Call to Action (CTA):
+“Explore Our Solutions”
+
+Visuals:
+
+Background image of a modern casino floor with digital interfaces.
+
+Overlay of Casyn logo in electric blue (#1736F5).
+
+🧩 Product Offerings
+1. CMD – Casino Management Dashboard
+Description:
+CMD offers a comprehensive solution for casino operations, integrating real-time analytics, machine management, and staff performance tracking into a single, user-friendly dashboard.
+
+Key Features:
+
+Live performance metrics and reporting.
+
+Machine and staff management tools.
+
+Integrated payout and bonus systems.
+
+Customizable dashboards with exportable data.
+Kiosk Marketplace
+
+Visuals:
+
+Screenshots of CMD interface highlighting dashboard and reporting features.
+Elo Touchscreens
++2
+statsdrone.com
++2
+Geckoboard
++2
+
+CTA:
+“Request a Demo”
+
+2. ProSys – Advanced Player Management
+Description:
+ProSys provides advanced tools for player tracking and management, utilizing biometric verification and detailed analytics to enhance security and operational efficiency.
+
+Key Features:
+
+Biometric (face/palm) player verification.
+
+Real-time ticketing and refund tracking.
+
+VIP segmentation and access controls.
+
+Comprehensive member activity logs.
+
+Visuals:
+
+Interface images showcasing biometric verification and member analytics.
+
+CTA:
+“Learn More”
+everymatrix.com
+
+3. Sports Betting Kiosk Solutions
+Description:
+Partnering with leading manufacturers, Casyn offers state-of-the-art sports betting kiosks that provide secure, self-service betting experiences for customers.
+
+Key Features:
+
+User-friendly interfaces with real-time odds.
+
+Secure transaction processing.
+
+Customizable hardware options.
+
+Compliance with regional betting regulations.
+Elo Touchscreens
+
+Visuals:
+
+Photos of installed kiosks in various environments.
+imageholders.com
++5
+Kiosk Innovations
++5
+Best Kiosk
++5
+
+CTA:
+“Explore Kiosk Solutions”
+UpPromote
++10
+UpPromote
++10
+GammaStack
++10
+
+🤝 Affiliate Partnerships
+Description:
+Casyn collaborates with top-tier affiliate programs to expand its reach and offer clients a diverse range of gaming solutions.
+
+Featured Partners:
+
+KIOSK Information Systems – Leading provider of self-service kiosks.
+
+CMD and ProSys – Top-rated casino management systems.
+
+1xBet – Global sports betting platform.
+
+PartnerMatrix – iGaming affiliate and agent management system.
+
+Affilka – Casino affiliate marketing software.
+Kiosk Self Service Manufacturers
++4
+KIOSK Information Systems
++4
+KIOSK Information Systems
++4
+Elo Touchscreens
++1
+statsdrone.com
++1
+casinoaffiliateprograms.com
++2
+thesun.ie
++2
+cpa.rip
++2
+Affilka
++3
+everymatrix.com
++3
+everymatrix.com
++3
+casinoaffiliateprograms.com
++4
+Affilka
++4
+Blockchain Ads
++4
+
+CTA:
+“Join Our Affiliate Network”
+thesun.ie
+
+📞 Contact Section
+Headline:
+“Get in Touch with Casyn”
+
+Description:
+Whether you're interested in our products, partnerships, or have general inquiries, our team is here to assist you.
+
+Contact Form Fields:
+
+Name
+
+Email
+
+Company
+
+Message
+Behance
++6
+imageholders.com
++6
+Business of Apps
++6
+everymatrix.com
++4
+Kiosk Marketplace
++4
+UpPromote
++4
+Affilka
++12
+statsdrone.com
++12
+Cash Titan
++12
+
+CTA:
+“Submit”
+statsdrone.com
+
+🎨 Design Guidelines
+Color Palette:
+
+Primary: Electric Blue (#1736F5)
+
+Secondary: Black (#000000)
+
+Accent: Bright Yellow (#FFC709)
+
+Background: Light Gray (#DEDEDE)
+
+Typography:
+
+Headings: Montserrat SemiBold
+
+Body: Inter Regular
+
+Imagery:
+
+High-resolution images of casino environments, kiosks, and software interfaces.
+
+Icons representing features (e.g., analytics, security, user management).
+
+Layout:
+
+Responsive design optimized for desktop and mobile devices.
+
+Clear navigation with sticky header menu.
+
+Consistent spacing and alignment for readability.
+
+Note: Ensure all content aligns with Casyn's brand voice—professional, trustworthy, and innovative.
