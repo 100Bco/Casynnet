@@ -8,44 +8,32 @@ interface RevealAnimationProps {
 
 export function RevealAnimation({ children, className = '', delay = 50 }: RevealAnimationProps) {
   const [isVisible, setIsVisible] = useState(false);
-  const [hasTriggered, setHasTriggered] = useState(false);
   const elementRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && !hasTriggered) {
-          setHasTriggered(true);
+        if (entry.isIntersecting) {
           setTimeout(() => {
             setIsVisible(true);
           }, delay);
+          observer.disconnect(); // Stop observing once triggered
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: '50px' }
     );
 
     if (elementRef.current) {
       observer.observe(elementRef.current);
     }
 
-    // Fallback timer to ensure content loads even if intersection doesn't trigger
-    const fallbackTimer = setTimeout(() => {
-      if (!hasTriggered) {
-        setHasTriggered(true);
-        setIsVisible(true);
-      }
-    }, 1000);
-
-    return () => {
-      observer.disconnect();
-      clearTimeout(fallbackTimer);
-    };
-  }, [delay, hasTriggered]);
+    return () => observer.disconnect();
+  }, [delay]);
 
   return (
     <div
       ref={elementRef}
-      className={`${className} ${isVisible ? 'animate-reveal-up' : 'reveal-hidden'}`}
+      className={`reveal-section ${isVisible ? 'visible' : ''} ${className}`}
     >
       {children}
     </div>
