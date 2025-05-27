@@ -45,7 +45,7 @@ export function RevealAnimation({ children, className = '', delay = 50 }: Reveal
   return (
     <div
       ref={elementRef}
-      className={`${className} ${isVisible ? 'animate-reveal-up' : 'opacity-0'}`}
+      className={`${className} ${isVisible ? 'animate-reveal-up' : 'reveal-hidden'}`}
     >
       {children}
     </div>
