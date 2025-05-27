@@ -98,24 +98,24 @@ export function ContactSection() {
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/5 rounded-full blur-3xl animate-pulse-slow" style={{animationDelay: '1s'}}></div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6">
+        <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="py-8">
+            <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-gray-800 mb-6">
               Get in Touch with <span className="text-primary">Casyn</span>
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-xl text-gray-700 mb-12">
               Whether you're interested in our products, partnerships, or have general inquiries, our team is here to assist you.
             </p>
             
-            <div className="space-y-6">
+            <div className="space-y-8">
               {contactInfo.map((info, index) => (
                 <div key={index} className="flex items-center space-x-4">
                   <div className={`p-3 rounded-lg ${info.color}`}>
                     <info.icon className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">{info.title}</h4>
-                    <p className="text-muted-foreground">{info.description}</p>
+                    <h4 className="font-semibold text-gray-800">{info.title}</h4>
+                    <p className="text-gray-600">{info.description}</p>
                   </div>
                 </div>
               ))}
