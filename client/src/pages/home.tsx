@@ -13,10 +13,18 @@ export default function Home() {
       <Navigation />
       <main>
         <HeroSection />
-        <StatisticsCounter />
-        <ProductOfferings />
-        <AffiliatePartnerships />
-        <ContactSection />
+        <RevealAnimation delay={50}>
+          <StatisticsCounter />
+        </RevealAnimation>
+        <RevealAnimation delay={100}>
+          <ProductOfferings />
+        </RevealAnimation>
+        <RevealAnimation delay={150}>
+          <AffiliatePartnerships />
+        </RevealAnimation>
+        <RevealAnimation delay={200}>
+          <ContactSection />
+        </RevealAnimation>
       </main>
       <Footer />
     </div>

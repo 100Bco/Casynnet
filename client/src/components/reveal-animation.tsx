@@ -6,28 +6,41 @@ interface RevealAnimationProps {
   delay?: number;
 }
 
-export function RevealAnimation({ children, className = '', delay = 0 }: RevealAnimationProps) {
+export function RevealAnimation({ children, className = '', delay = 50 }: RevealAnimationProps) {
   const [isVisible, setIsVisible] = useState(false);
+  const [hasTriggered, setHasTriggered] = useState(false);
   const elementRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting && !hasTriggered) {
+          setHasTriggered(true);
           setTimeout(() => {
             setIsVisible(true);
           }, delay);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.1 }
     );
 
     if (elementRef.current) {
       observer.observe(elementRef.current);
     }
 
-    return () => observer.disconnect();
-  }, [delay]);
+    // Fallback timer to ensure content loads even if intersection doesn't trigger
+    const fallbackTimer = setTimeout(() => {
+      if (!hasTriggered) {
+        setHasTriggered(true);
+        setIsVisible(true);
+      }
+    }, 1000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimer);
+    };
+  }, [delay, hasTriggered]);
 
   return (
     <div
