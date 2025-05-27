@@ -36,7 +36,9 @@ export function Navigation() {
       }`}>
         <div className="px-6">
           <div className="flex justify-between items-center h-16">
-            <CasynLogo />
+            <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="cursor-pointer">
+              <CasynLogo />
+            </button>
             
             {/* Desktop Navigation */}
             <div className="hidden md:block">
