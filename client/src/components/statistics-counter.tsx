@@ -89,13 +89,13 @@ export function StatisticsCounter() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-slate-900 dark:to-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-montserrat font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-montserrat font-bold mb-4 text-gray-800 dark:text-white">
             Trusted by Industry Leaders
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
             Our numbers speak for themselves. See why gaming professionals worldwide choose Casyn.
           </p>
         </div>
@@ -112,10 +112,10 @@ export function StatisticsCounter() {
                   suffix={stat.suffix}
                   duration={2500}
                 />
-                <h3 className="text-xl font-semibold text-foreground mt-2 mb-2">
+                <h3 className="text-xl font-semibold text-gray-600 dark:text-gray-300 mt-2 mb-2">
                   {stat.label}
                 </h3>
-                <p className="text-muted-foreground text-sm">
+                <p className="text-gray-500 dark:text-gray-400 text-sm">
                   {stat.description}
                 </p>
               </CardContent>
