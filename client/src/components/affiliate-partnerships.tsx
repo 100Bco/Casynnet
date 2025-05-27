@@ -88,7 +88,7 @@ export function AffiliatePartnerships() {
               <Handshake className="mr-2 h-5 w-5" />
               Become an Affiliate
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-foreground px-8 py-4 font-semibold">
+            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-4 font-semibold">
               <Users className="mr-2 h-5 w-5" />
               Learn More
             </Button>
