@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { CasynLogo } from './casyn-logo';
 import { ChevronDown, Rocket, Play } from 'lucide-react';
 import { useSmoothScroll } from '@/hooks/use-smooth-scroll';
+import heroImage from '@assets/image_1748377233939.png';
 
 export function HeroSection() {
   const scrollToSection = useSmoothScroll();
@@ -11,8 +12,8 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1596838132731-3301c3fd4317?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
-          alt="Elegant casino cards and gaming environment" 
+          src={heroImage}
+          alt="Sleek casino cards and roulette wheel with modern dark theme" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-primary/25"></div>
@@ -37,13 +38,13 @@ export function HeroSection() {
         </div>
         
         <h1 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-6 leading-tight animate-fade-in-up stagger-1">
-          Powering Smart<br/>
-          <span className="gradient-text animate-pulse-slow">Gaming & Betting</span><br/>
+          <span className="gradient-text animate-pulse-slow">Powering Smart Gaming</span><br/>
           Solutions
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-inter animate-fade-in-up stagger-2">
-          Your trusted partner in casino tech. Built to simplify and protect casino operations.
+          Your trusted partner in casino tech.<br/>
+          Built to simplify and optimize gaming operations.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up stagger-3">

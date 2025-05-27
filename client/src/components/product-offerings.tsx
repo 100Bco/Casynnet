@@ -1,6 +1,9 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { BarChart3, Users, CreditCard, Download, Shield, Fingerprint, Ticket, Crown, History, Smartphone, Lock, Settings, Scale } from 'lucide-react';
+import cmdImage from '@assets/image_1748377152173.png';
+import prosysImage from '@assets/image_1748377162843.png';
+import kioskImage from '@assets/image_1748377308069.png';
 
 export function ProductOfferings() {
   const cmdFeatures = [
