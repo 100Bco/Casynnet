@@ -456,3 +456,29 @@ html {
 .stagger-4 { animation-delay: 0.4s; }
 .stagger-5 { animation-delay: 0.5s; }
 .stagger-6 { animation-delay: 0.6s; }
+
+/* Text Contrast Fixes */
+.gradient-bg-1 h2,
+.gradient-bg-1 h3,
+.gradient-bg-1 h4,
+.gradient-bg-1 p:not(.text-white):not(.text-gray-200):not(.bg-primary) {
+  color: #1f2937 !important;
+}
+
+.dark .gradient-bg-1 h2,
+.dark .gradient-bg-1 h3,
+.dark .gradient-bg-1 h4,
+.dark .gradient-bg-1 p:not(.text-white):not(.text-gray-200):not(.bg-primary) {
+  color: #f9fafb !important;
+}
+
+/* Contact Form Styling - Less Contrasting */
+.contact-form {
+  background: rgba(107, 114, 128, 0.08) !important;
+  border: 1px solid rgba(107, 114, 128, 0.15) !important;
+}
+
+.dark .contact-form {
+  background: rgba(75, 85, 99, 0.15) !important;
+  border: 1px solid rgba(75, 85, 99, 0.25) !important;
+}

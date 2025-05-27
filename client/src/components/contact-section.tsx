@@ -133,7 +133,7 @@ export function ContactSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
             </div>
             
-            <Card className="shadow-lg">
+            <Card className="shadow-lg contact-form">
               <CardContent className="p-8">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
