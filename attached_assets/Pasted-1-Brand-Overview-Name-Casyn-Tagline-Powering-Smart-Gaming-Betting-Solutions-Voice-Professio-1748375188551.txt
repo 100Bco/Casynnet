@@ -1,0 +1,81 @@
+1. Brand Overview
+Name: Casyn
+Tagline: Powering Smart Gaming & Betting Solutions
+Voice: Professional, discreet, modern-tech
+Positioning: Trusted partner in casino tech
+________________________________________
+2. Logo Usage
+✅ Primary Logo
+•	Full logo: Icon + “Casyn” wordmark
+•	Preferred usage on light or white backgrounds
+✅ Icon-Only Logo
+•	Hexagonal C with embedded S can be used as standalone favicon, app icon, or stamp
+•	Retain blue gradient and white negative space for clarity
+❌ Do Not:
+•	Alter proportions between icon and wordmark
+•	Rotate or distort the hexagon icon
+•	Change the colors without approval
+•	Place on backgrounds with low contrast (e.g., dark blue on black)
+________________________________________
+3. Color Palette
+Name	Hex	Usage
+Casyn Blue	#1736F5	Primary accent, buttons, CTAs, links
+Gradient Blue	#00A4FF → #0047FF	Logo highlight and icon depth
+Jet Black	#000000	Text, logo wordmark, footer background
+Graphite Gray	#808080	Secondary labels, inactive states
+Soft Gray	#DEDEDE	Background fills, borders, forms
+Highlight Yellow	#FFC709	Optional CTA highlight, alerts
+________________________________________
+4. Typography
+Primary Font: Montserrat
+•	Use for all headings and product names
+•	Weights: SemiBold for headers, Regular for subheaders
+Secondary Font: Inter
+•	Use for body text, captions, UI copy
+•	Sizes:
+o	H1: 36–48px
+o	H2: 28–32px
+o	Body: 16–18px
+o	Button: 14px UPPERCASE
+________________________________________
+5. Brand Voice & Tone
+Tone Traits:
+•	Trustworthy (for underground, high-risk markets)
+•	Modern (tech-driven layout & voice)
+•	Discreet (no loud marketing language)
+•	Strategic (smart partner positioning)
+Do Say:
+•	“Casyn is the #1-ranked distributor for CMD & ProSys.”
+•	“Built to simplify and protect casino operations.”
+•	“Run smarter. Grow faster. Stay invisible.”
+Avoid Saying:
+•	“We’re the cheapest!”
+•	“The ultimate public solution for everyone.”
+•	Anything legally ambiguous in tone.
+________________________________________
+6. Logo Spacing & Sizing
+•	Clear Space: Minimum padding = 1x the height of the “C” icon
+•	Minimum Size:
+o	Icon alone: 24px
+o	Full logo: 120px width
+________________________________________
+7. Imagery Style
+Photographic Style:
+•	Dark-mode UIs and dashboards
+•	Abstract tech textures (digital grids, circuits, networks)
+•	Casino environments with soft blur/focus on people
+•	Minimalist workspace setups or kiosk environments
+Iconography Style:
+•	Monoline or outline icons in white or electric blue
+•	Consistent stroke weight
+•	Avoid 3D or cartoon styles
+________________________________________
+8. Applications
+Use Case	Logo Version	Color Style
+Website Header	Full Logo	Black on white
+Website Footer	Icon Only or Full	White on black
+Social Media Icon	Icon Only	Blue gradient
+Favicon	Icon Only	Blue + White
+Email Signature	Full Logo (small)	Black
+Product UI	Wordmark Only	Black or Gray
+Watermark	Icon (20% opacity)	Light gray/white

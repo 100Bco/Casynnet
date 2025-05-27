@@ -12,9 +12,9 @@ export function ProductOfferings() {
 
   const prosysFeatures = [
     { icon: Fingerprint, title: 'Biometric Verification', description: 'Face and palm recognition' },
-    { icon: Ticket, title: 'Ticket Tracking', description: 'Real-time refund processing' },
+    { icon: BarChart3, title: 'Match Tracking', description: 'Real-time match reports with user ID and timestamps' },
     { icon: Crown, title: 'VIP Management', description: 'Segmentation and access controls' },
-    { icon: History, title: 'Activity Logs', description: 'Comprehensive member tracking' }
+    { icon: CreditCard, title: 'Bonus Rewards', description: 'High roller settings and birthday match bonuses' }
   ];
 
   const kioskFeatures = [

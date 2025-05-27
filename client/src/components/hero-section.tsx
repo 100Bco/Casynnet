@@ -11,11 +11,11 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
-          alt="Modern casino floor with digital gaming machines" 
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
+          alt="Modern tech workspace with casino technology displays" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-primary/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-primary/30"></div>
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -24,13 +24,13 @@ export function HeroSection() {
         </div>
         
         <h1 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-6 leading-tight animate-fade-in-up">
-          Powering the Future of<br/>
-          <span className="text-accent">Casino Management</span><br/>
-          and Sports Betting
+          Powering Smart<br/>
+          <span className="text-accent">Gaming & Betting</span><br/>
+          Solutions
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-inter animate-fade-in-up">
-          Casyn: Your Trusted Partner in Casino Software, Hardware, and Affiliate Solutions
+          Your trusted partner in casino tech. Built to simplify and protect casino operations.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">

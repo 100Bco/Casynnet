@@ -6,24 +6,24 @@
 
 :root {
   --background: 0 0% 100%;
-  --foreground: 0 0% 0%;
-  --muted: 210 11% 87%; /* #DEDEDE */
-  --muted-foreground: 25 5.3% 44.7%;
+  --foreground: 0 0% 0%; /* Jet Black #000000 */
+  --muted: 0 0% 87%; /* Soft Gray #DEDEDE */
+  --muted-foreground: 0 0% 50%; /* Graphite Gray #808080 */
   --popover: 0 0% 100%;
   --popover-foreground: 0 0% 0%;
   --card: 0 0% 100%;
   --card-foreground: 0 0% 0%;
-  --border: 210 11% 87%;
-  --input: 210 11% 87%;
-  --primary: 207 90% 54%; /* #1736F5 */
+  --border: 0 0% 87%; /* Soft Gray #DEDEDE */
+  --input: 0 0% 87%;
+  --primary: 225 96% 54%; /* Casyn Blue #1736F5 */
   --primary-foreground: 0 0% 100%;
-  --secondary: 210 11% 87%;
+  --secondary: 0 0% 87%;
   --secondary-foreground: 0 0% 0%;
-  --accent: 46 100% 53%; /* #FFC709 */
+  --accent: 46 100% 53%; /* Highlight Yellow #FFC709 */
   --accent-foreground: 0 0% 0%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;
-  --ring: 207 90% 54%;
+  --ring: 225 96% 54%;
   --radius: 0.5rem;
 }
 
