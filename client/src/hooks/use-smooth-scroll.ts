@@ -2,19 +2,20 @@ import { useCallback } from 'react';
 
 export function useSmoothScroll() {
   const scrollToSection = useCallback((sectionId: string) => {
-    console.log('Attempting to scroll to:', sectionId);
-    const element = document.getElementById(sectionId);
-    console.log('Found element:', element);
-    if (element) {
-      const offsetTop = element.offsetTop - 100; // Account for fixed navbar and padding
-      console.log('Scrolling to position:', offsetTop);
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth'
-      });
-    } else {
-      console.log('Element not found with ID:', sectionId);
-    }
+    // Add a small delay to ensure all animations and layout changes are complete
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        const currentScrollY = window.pageYOffset;
+        const targetPosition = rect.top + currentScrollY - 120; // Account for navbar
+        
+        window.scrollTo({
+          top: Math.max(0, targetPosition), // Ensure we don't scroll to negative position
+          behavior: 'smooth'
+        });
+      }
+    }, 50);
   }, []);
 
   return scrollToSection;
