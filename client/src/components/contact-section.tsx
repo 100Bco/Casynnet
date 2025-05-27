@@ -173,7 +173,7 @@ export function ContactSection() {
                       id="company"
                       type="text"
                       placeholder="Your Company Name"
-                      value={formData.company}
+                      value={formData.company || ''}
                       onChange={(e) => setFormData(prev => ({ ...prev, company: e.target.value }))}
                       className="border-border focus:border-primary focus:ring-primary/20"
                     />

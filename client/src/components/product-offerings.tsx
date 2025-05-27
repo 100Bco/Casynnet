@@ -76,9 +76,9 @@ export function ProductOfferings() {
             <div className="order-1 lg:order-2 animate-slide-in-right">
               <div className="relative hover-lift neon-border rounded-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="CMD Casino Management Dashboard with elegant interface" 
-                  className="rounded-xl shadow-2xl w-full"
+                  src={cmdImage}
+                  alt="CMD Casino Management Dashboard with analytics and reporting" 
+                  className="rounded-xl shadow-2xl w-full object-cover h-80"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent rounded-xl"></div>
                 <div className="absolute top-4 left-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -95,9 +95,9 @@ export function ProductOfferings() {
             <div>
               <div className="relative hover-lift morphing-shape">
                 <img 
-                  src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  src={prosysImage}
                   alt="ProSys Advanced Player Management System" 
-                  className="rounded-xl shadow-2xl w-full"
+                  className="rounded-xl shadow-2xl w-full object-cover h-80"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-accent/30 to-transparent rounded-xl"></div>
                 <div className="absolute top-4 right-4 bg-accent/90 text-black px-3 py-1 rounded-full text-sm font-semibold">
@@ -176,9 +176,9 @@ export function ProductOfferings() {
             <div className="order-1 lg:order-2">
               <div className="relative hover-lift">
                 <img 
-                  src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  src={kioskImage}
                   alt="Sports Betting Kiosks with modern touch interfaces" 
-                  className="rounded-xl shadow-2xl w-full"
+                  className="rounded-xl shadow-2xl w-full object-cover h-80"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
                 <div className="absolute bottom-4 left-4 bg-gradient-to-r from-primary to-accent text-white px-3 py-1 rounded-full text-sm font-semibold">
