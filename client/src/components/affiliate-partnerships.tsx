@@ -43,13 +43,18 @@ export function AffiliatePartnerships() {
   ];
 
   return (
-    <section id="partnerships" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="partnerships" className="py-20 bg-slate-900 text-white relative overflow-hidden">
+      {/* Animated background shapes */}
+      <div className="absolute inset-0">
+        <div className="morphing-shape absolute top-10 left-10 w-32 h-32 bg-primary/20"></div>
+        <div className="morphing-shape absolute bottom-10 right-10 w-40 h-40 bg-accent/20" style={{animationDelay: '2s'}}></div>
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up">
+          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-6 animate-fade-in-up">
             Join the <span className="gradient-text">Casyn</span> Affiliate Network
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in-up stagger-1">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8 animate-fade-in-up stagger-1">
             Partner with the #1-ranked distributor for CMD & ProSys. Work under our trusted brand name and infrastructure to grow your business.
           </p>
         </div>

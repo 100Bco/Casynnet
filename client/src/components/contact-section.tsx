@@ -89,8 +89,13 @@ export function ContactSection() {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
+      {/* Subtle animated background elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/5 rounded-full blur-3xl animate-pulse-slow" style={{animationDelay: '1s'}}></div>
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6">

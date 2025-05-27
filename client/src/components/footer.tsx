@@ -1,6 +1,6 @@
 import { CasynLogo } from './casyn-logo';
 import { Button } from '@/components/ui/button';
-import { Linkedin, Twitter, Facebook } from 'lucide-react';
+import { SiFacebook, SiTiktok, SiInstagram } from 'react-icons/si';
 
 export function Footer() {
   const solutionLinks = [
@@ -33,14 +33,14 @@ export function Footer() {
               Your trusted partner in casino software, hardware, and affiliate solutions. Powering the future of gaming technology.
             </p>
             <div className="flex space-x-4">
-              <Button size="sm" className="bg-primary hover:bg-primary/90 p-3">
-                <Linkedin className="h-4 w-4" />
+              <Button size="sm" className="bg-primary hover:bg-primary/90 p-3 hover-lift">
+                <SiFacebook className="h-4 w-4" />
               </Button>
-              <Button size="sm" className="bg-primary hover:bg-primary/90 p-3">
-                <Twitter className="h-4 w-4" />
+              <Button size="sm" className="bg-primary hover:bg-primary/90 p-3 hover-lift">
+                <SiTiktok className="h-4 w-4" />
               </Button>
-              <Button size="sm" className="bg-primary hover:bg-primary/90 p-3">
-                <Facebook className="h-4 w-4" />
+              <Button size="sm" className="bg-primary hover:bg-primary/90 p-3 hover-lift">
+                <SiInstagram className="h-4 w-4" />
               </Button>
             </div>
           </div>
