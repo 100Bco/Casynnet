@@ -19,7 +19,7 @@ export function ProductOfferings() {
 
   const kioskFeatures = [
     { icon: Smartphone, title: 'User-Friendly Interface', description: 'Real-time odds and betting' },
-    { icon: Lock, title: 'Secure Transactions', description: 'Protected payment processing' },
+    { icon: BarChart3, title: 'Daily Reporting', description: 'Simplified compliance with easy scan of winning tickets' },
     { icon: Settings, title: 'Customizable Hardware', description: 'Tailored to your space' },
     { icon: Scale, title: 'Regulatory Compliance', description: 'Meets regional requirements' }
   ];
@@ -48,7 +48,7 @@ export function ProductOfferings() {
                 CMD – Casino Management Dashboard
               </h3>
               <p className="text-lg text-muted-foreground mb-8">
-                CMD offers a comprehensive solution for casino operations, integrating real-time analytics, machine management, and staff performance tracking into a single, user-friendly dashboard.
+                Trusted solutions for small casino management and player tracking. Built to simplify and protect casino operations.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -73,8 +73,8 @@ export function ProductOfferings() {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="Modern dashboard interface with analytics and charts" 
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Advanced casino management dashboard with real-time analytics" 
                   className="rounded-xl shadow-2xl w-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
@@ -89,8 +89,8 @@ export function ProductOfferings() {
             <div>
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="Security biometric scanning interface with fingerprint recognition" 
+                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Advanced biometric security system for casino player management" 
                   className="rounded-xl shadow-2xl w-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-accent/20 to-transparent rounded-xl"></div>
@@ -105,7 +105,7 @@ export function ProductOfferings() {
                 ProSys – Advanced Player Management
               </h3>
               <p className="text-lg text-muted-foreground mb-8">
-                ProSys provides advanced tools for player tracking and management, utilizing biometric verification and detailed analytics to enhance security and operational efficiency.
+                Trusted solutions for small casino management and player tracking. Enhanced security and operational efficiency with advanced analytics.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -167,8 +167,8 @@ export function ProductOfferings() {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="Modern interactive digital kiosk in a commercial setting" 
+                  src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Modern sports betting kiosk with touch interface in casino environment" 
                   className="rounded-xl shadow-2xl w-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
