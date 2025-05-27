@@ -18,8 +18,15 @@ export function HeroSection() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-primary/25"></div>
         
-        {/* Floating particles effect */}
+        {/* Floating casino chips and particles */}
         <div className="absolute inset-0 overflow-hidden">
+          {/* Casino chips */}
+          <div className="casino-chip" style={{left: '15%', top: '20%', animationDelay: '0s'}}></div>
+          <div className="casino-chip" style={{left: '75%', top: '30%', animationDelay: '1s'}}></div>
+          <div className="casino-chip" style={{left: '25%', top: '60%', animationDelay: '2s'}}></div>
+          <div className="casino-chip" style={{left: '85%', top: '70%', animationDelay: '3s'}}></div>
+          
+          {/* Enhanced particles */}
           <div className="particles" style={{left: '10%', animationDelay: '0s'}}></div>
           <div className="particles" style={{left: '20%', animationDelay: '0.5s'}}></div>
           <div className="particles" style={{left: '30%', animationDelay: '1s'}}></div>
