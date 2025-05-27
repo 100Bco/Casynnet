@@ -31,10 +31,10 @@ export function ProductOfferings() {
     <section id="solutions" className="py-20 gradient-bg-1 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up">
+          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-gray-800 dark:text-white mb-6 animate-fade-in-up">
             Our <span className="gradient-text">Solutions</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-up stagger-1">
+          <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto animate-fade-in-up stagger-1">
             Comprehensive casino management and sports betting solutions designed for the modern gaming industry
           </p>
         </div>
@@ -47,10 +47,10 @@ export function ProductOfferings() {
                 <BarChart3 className="inline mr-2 h-4 w-4" />
                 Featured Solution
               </div>
-              <h3 className="text-3xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up stagger-1">
+              <h3 className="text-3xl font-montserrat font-bold text-gray-800 dark:text-white mb-6 animate-fade-in-up stagger-1">
                 CMD – Casino Management Dashboard
               </h3>
-              <p className="text-lg text-muted-foreground mb-8 animate-fade-in-up stagger-2">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 animate-fade-in-up stagger-2">
                 Trusted solutions for small casino management and player tracking. Built to simplify and protect casino operations.
               </p>
               
