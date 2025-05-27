@@ -10,6 +10,7 @@ import { apiRequest } from '@/lib/queryClient';
 import { Phone, Mail, Calendar, Send } from 'lucide-react';
 import type { InsertContactSubmission } from '@shared/schema';
 import meetingImage from '@assets/image_1748378382887.png';
+import handshakeImage from '@assets/image_1748379862890.png';
 
 export function ContactSection() {
   const [formData, setFormData] = useState<InsertContactSubmission>({
@@ -125,8 +126,8 @@ export function ContactSection() {
             {/* Professional business meeting background */}
             <div className="relative mb-8">
               <img 
-                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
-                alt="Professional handshake representing partnership and trust" 
+                src={handshakeImage}
+                alt="Casino business partnership handshake with gaming environment" 
                 className="rounded-xl shadow-lg w-full object-cover h-64"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
