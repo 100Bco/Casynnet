@@ -89,7 +89,7 @@ export function StatisticsCounter() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-slate-900 dark:to-slate-800">
+    <section className="py-20 bg-gradient-to-br from-white to-gray-50 dark:from-slate-900 dark:to-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-montserrat font-bold mb-4 text-gray-800 dark:text-white">
