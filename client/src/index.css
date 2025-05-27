@@ -461,15 +461,58 @@ html {
 .gradient-bg-1 h2,
 .gradient-bg-1 h3,
 .gradient-bg-1 h4,
-.gradient-bg-1 p:not(.text-white):not(.text-gray-200):not(.bg-primary) {
-  color: #1f2937 !important;
+.gradient-bg-1 p,
+.gradient-bg-1 span:not(.gradient-text),
+.gradient-bg-1 div:not(.bg-primary):not(.bg-accent) {
+  color: #111827 !important;
+}
+
+.gradient-bg-1 .text-muted-foreground,
+.gradient-bg-1 .text-foreground {
+  color: #111827 !important;
 }
 
 .dark .gradient-bg-1 h2,
 .dark .gradient-bg-1 h3,
 .dark .gradient-bg-1 h4,
-.dark .gradient-bg-1 p:not(.text-white):not(.text-gray-200):not(.bg-primary) {
+.dark .gradient-bg-1 p,
+.dark .gradient-bg-1 span:not(.gradient-text),
+.dark .gradient-bg-1 div:not(.bg-primary):not(.bg-accent) {
   color: #f9fafb !important;
+}
+
+.dark .gradient-bg-1 .text-muted-foreground,
+.dark .gradient-bg-1 .text-foreground {
+  color: #f9fafb !important;
+}
+
+/* Fix all light background sections */
+.gradient-bg-2 h2,
+.gradient-bg-2 h3,
+.gradient-bg-2 h4,
+.gradient-bg-2 p,
+.gradient-bg-2 span:not(.gradient-text):not(.text-white),
+.gradient-bg-2 div:not(.bg-primary):not(.bg-accent):not(.text-white) {
+  color: #111827 !important;
+}
+
+.gradient-bg-3 h2,
+.gradient-bg-3 h3,
+.gradient-bg-3 h4,
+.gradient-bg-3 p,
+.gradient-bg-3 span:not(.gradient-text):not(.text-white),
+.gradient-bg-3 div:not(.bg-primary):not(.bg-accent):not(.text-white) {
+  color: #111827 !important;
+}
+
+/* Affiliate section specific fixes */
+section[class*="gradient"] h2,
+section[class*="gradient"] h3,
+section[class*="gradient"] h4,
+section[class*="gradient"] p,
+section[class*="gradient"] span:not(.gradient-text):not(.text-white),
+section[class*="gradient"] .text-muted-foreground:not(.text-white) {
+  color: #111827 !important;
 }
 
 /* Contact Form Styling - Less Contrasting */
@@ -481,4 +524,19 @@ html {
 .dark .contact-form {
   background: rgba(75, 85, 99, 0.15) !important;
   border: 1px solid rgba(75, 85, 99, 0.25) !important;
+}
+
+/* Fix input field contrast */
+.contact-form input,
+.contact-form textarea {
+  background: rgba(255, 255, 255, 0.9) !important;
+  color: #111827 !important;
+  border: 1px solid rgba(107, 114, 128, 0.3) !important;
+}
+
+.dark .contact-form input,
+.dark .contact-form textarea {
+  background: rgba(17, 24, 39, 0.8) !important;
+  color: #f9fafb !important;
+  border: 1px solid rgba(75, 85, 99, 0.5) !important;
 }
