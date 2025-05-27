@@ -9,6 +9,7 @@ import { useMutation } from '@tanstack/react-query';
 import { apiRequest } from '@/lib/queryClient';
 import { Phone, Mail, Calendar, Send } from 'lucide-react';
 import type { InsertContactSubmission } from '@shared/schema';
+import meetingImage from '@assets/image_1748378382887.png';
 
 export function ContactSection() {
   const [formData, setFormData] = useState<InsertContactSubmission>({
@@ -124,7 +125,7 @@ export function ContactSection() {
             {/* Professional business meeting background */}
             <div className="relative mb-8">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                src={meetingImage}
                 alt="Professional business meeting with technology consultants" 
                 className="rounded-xl shadow-lg w-full"
               />

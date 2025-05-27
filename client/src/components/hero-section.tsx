@@ -38,8 +38,8 @@ export function HeroSection() {
         </div>
         
         <h1 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-6 leading-tight animate-fade-in-up stagger-1">
-          <span className="gradient-text animate-pulse-slow">Powering Smart Gaming</span><br/>
-          Solutions
+          <span className="gradient-text animate-pulse-slow">Powering Smart</span><br/>
+          <span className="gradient-text animate-pulse-slow">Gaming Solutions</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-inter animate-fade-in-up stagger-2">

@@ -1,8 +1,8 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { BarChart3, Users, CreditCard, Download, Shield, Fingerprint, Ticket, Crown, History, Smartphone, Lock, Settings, Scale } from 'lucide-react';
-import cmdImage from '@assets/image_1748377152173.png';
-import prosysImage from '@assets/image_1748377162843.png';
+import cmdImage from '@assets/image_1748378029121.png';
+import prosysImage from '@assets/image_1748378112895.png';
 import kioskImage from '@assets/image_1748377308069.png';
 
 export function ProductOfferings() {
@@ -82,7 +82,7 @@ export function ProductOfferings() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent rounded-xl"></div>
                 <div className="absolute top-4 left-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  CMD Dashboard
+                  CMD
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ export function ProductOfferings() {
                 ))}
               </div>
               
-              <Button className="bg-accent hover:bg-accent/90 text-foreground">
+              <Button className="bg-accent hover:bg-accent/90 text-black">
                 <Shield className="mr-2 h-4 w-4" />
                 Learn More
               </Button>

@@ -44,10 +44,9 @@ export function AffiliatePartnerships() {
 
   return (
     <section id="partnerships" className="py-20 bg-slate-900 text-white relative overflow-hidden">
-      {/* Animated background shapes */}
+      {/* Subtle gradient overlay */}
       <div className="absolute inset-0">
-        <div className="morphing-shape absolute top-10 left-10 w-32 h-32 bg-primary/20"></div>
-        <div className="morphing-shape absolute bottom-10 right-10 w-40 h-40 bg-accent/20" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 to-accent/5"></div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
@@ -82,7 +81,7 @@ export function AffiliatePartnerships() {
         <div className="bg-gradient-to-r from-primary to-accent rounded-2xl p-12 text-center text-white">
           <h3 className="text-3xl font-montserrat font-bold mb-4">Start Building Your Success Today</h3>
           <p className="text-xl mb-8 opacity-90">
-            Run smarter. Grow faster. Stay invisible with Casyn's trusted network.
+            Run smarter. Grow faster. Stay ahead with Casyn's trusted network.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-white text-foreground hover:bg-gray-100 px-8 py-4 font-semibold">
