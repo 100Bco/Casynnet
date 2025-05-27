@@ -125,7 +125,7 @@ export function ContactSection() {
             {/* Professional business meeting background */}
             <div className="relative mb-8">
               <img 
-                src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
                 alt="Professional handshake representing partnership and trust" 
                 className="rounded-xl shadow-lg w-full object-cover h-64"
               />
