@@ -46,10 +46,10 @@ export function AffiliatePartnerships() {
     <section id="partnerships" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6">
-            Join the <span className="text-primary">Casyn</span> Affiliate Network
+          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up">
+            Join the <span className="gradient-text">Casyn</span> Affiliate Network
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in-up stagger-1">
             Partner with the #1-ranked distributor for CMD & ProSys. Work under our trusted brand name and infrastructure to grow your business.
           </p>
         </div>
@@ -57,9 +57,9 @@ export function AffiliatePartnerships() {
         {/* Benefits Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="bg-white hover:shadow-xl transition-shadow duration-300">
+            <Card key={index} className={`bg-white hover-lift card-hover animate-scale-in stagger-${index + 2}`}>
               <CardContent className="p-8 text-center">
-                <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${benefit.color}`}>
+                <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${benefit.color} animate-float`}>
                   <benefit.icon className="h-8 w-8" />
                 </div>
                 <h3 className="text-xl font-montserrat font-bold text-foreground mb-3">

@@ -19,25 +19,25 @@ export function HeroSection() {
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8 animate-fade-in">
+        <div className="mb-8 animate-scale-in animate-float">
           <CasynLogo size="xl" className="mx-auto mb-6 drop-shadow-2xl" />
         </div>
         
-        <h1 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-6 leading-tight animate-fade-in-up">
+        <h1 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-6 leading-tight animate-fade-in-up stagger-1">
           Powering Smart<br/>
-          <span className="text-accent">Gaming & Betting</span><br/>
+          <span className="gradient-text animate-pulse-slow">Gaming & Betting</span><br/>
           Solutions
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-inter animate-fade-in-up">
+        <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-inter animate-fade-in-up stagger-2">
           Your trusted partner in casino tech. Built to simplify and protect casino operations.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up stagger-3">
           <Button 
             size="lg"
             onClick={() => scrollToSection('solutions')}
-            className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-semibold transition-all transform hover:scale-105 shadow-xl"
+            className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-semibold btn-primary hover-lift shadow-xl"
           >
             <Rocket className="mr-2 h-5 w-5" />
             Explore Our Solutions
@@ -45,7 +45,7 @@ export function HeroSection() {
           <Button 
             size="lg"
             variant="outline"
-            className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-foreground px-8 py-4 text-lg font-semibold transition-all"
+            className="glass border-2 border-white text-white hover:bg-white hover:text-foreground px-8 py-4 text-lg font-semibold hover-lift transition-all"
           >
             <Play className="mr-2 h-5 w-5" />
             Watch Demo

@@ -1,38 +1,25 @@
-import casynLogoPath from "@assets/Casyn Logo.png";
+import casynLogoTransparentPath from "@assets/Casyn logo - Transparent.png";
 
 interface CasynLogoProps {
   className?: string;
-  showText?: boolean;
   size?: 'sm' | 'md' | 'lg' | 'xl';
 }
 
-export function CasynLogo({ className = '', showText = true, size = 'md' }: CasynLogoProps) {
+export function CasynLogo({ className = '', size = 'md' }: CasynLogoProps) {
   const sizeMap = {
-    sm: 'h-6 w-6',
-    md: 'h-8 w-8',
-    lg: 'h-12 w-12',
-    xl: 'h-16 w-16'
-  };
-
-  const textSizeMap = {
-    sm: 'text-lg',
-    md: 'text-xl',
-    lg: 'text-2xl',
-    xl: 'text-3xl'
+    sm: 'h-8',
+    md: 'h-10',
+    lg: 'h-16',
+    xl: 'h-20'
   };
 
   return (
     <div className={`flex items-center ${className}`}>
       <img 
-        src={casynLogoPath}
-        alt="Casyn Logo"
+        src={casynLogoTransparentPath}
+        alt="Casyn"
         className={`${sizeMap[size]} object-contain`}
       />
-      {showText && (
-        <span className={`ml-3 ${textSizeMap[size]} font-montserrat font-semibold text-foreground`}>
-          Casyn
-        </span>
-      )}
     </div>
   );
 }

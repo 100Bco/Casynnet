@@ -28,10 +28,10 @@ export function ProductOfferings() {
     <section id="solutions" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6">
-            Our <span className="text-primary">Solutions</span>
+          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up">
+            Our <span className="gradient-text">Solutions</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-up stagger-1">
             Comprehensive casino management and sports betting solutions designed for the modern gaming industry
           </p>
         </div>
@@ -39,22 +39,22 @@ export function ProductOfferings() {
         {/* CMD - Casino Management Dashboard */}
         <div className="mb-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <div className="bg-primary text-white px-4 py-2 rounded-full inline-block mb-4">
+            <div className="order-2 lg:order-1 animate-slide-in-left">
+              <div className="bg-primary text-white px-4 py-2 rounded-full inline-block mb-4 shimmer">
                 <BarChart3 className="inline mr-2 h-4 w-4" />
                 Featured Solution
               </div>
-              <h3 className="text-3xl font-montserrat font-bold text-foreground mb-6">
+              <h3 className="text-3xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up stagger-1">
                 CMD – Casino Management Dashboard
               </h3>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-muted-foreground mb-8 animate-fade-in-up stagger-2">
                 Trusted solutions for small casino management and player tracking. Built to simplify and protect casino operations.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
                 {cmdFeatures.map((feature, index) => (
-                  <div key={index} className="flex items-start space-x-3">
-                    <div className="bg-primary/10 p-2 rounded-lg">
+                  <div key={index} className={`flex items-start space-x-3 animate-fade-in-up card-hover p-2 rounded-lg stagger-${index + 3}`}>
+                    <div className="bg-primary/10 p-2 rounded-lg animate-pulse-slow">
                       <feature.icon className="h-5 w-5 text-primary" />
                     </div>
                     <div>
@@ -65,13 +65,13 @@ export function ProductOfferings() {
                 ))}
               </div>
               
-              <Button className="bg-primary hover:bg-primary/90 text-white">
+              <Button className="bg-primary hover:bg-primary/90 text-white btn-primary hover-lift">
                 <BarChart3 className="mr-2 h-4 w-4" />
                 Request a Demo
               </Button>
             </div>
-            <div className="order-1 lg:order-2">
-              <div className="relative">
+            <div className="order-1 lg:order-2 animate-slide-in-right">
+              <div className="relative hover-lift">
                 <img 
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
                   alt="Advanced casino management dashboard with real-time analytics" 
