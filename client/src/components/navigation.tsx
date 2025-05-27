@@ -20,8 +20,8 @@ export function Navigation() {
 
   const navLinks = [
     { label: 'Solutions', href: 'solutions' },
-    { label: 'Partnerships', href: 'partnerships' },
-    { label: 'Contact', href: 'contact' }
+    { label: 'Affiliates', href: 'partnerships' },
+    { label: 'Contact Us', href: 'contact' }
   ];
 
   const handleNavClick = (href: string) => {

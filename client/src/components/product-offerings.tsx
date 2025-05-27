@@ -25,8 +25,8 @@ export function ProductOfferings() {
   ];
 
   return (
-    <section id="solutions" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="solutions" className="py-20 gradient-bg-1 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-foreground mb-6 animate-fade-in-up">
             Our <span className="gradient-text">Solutions</span>
@@ -71,13 +71,16 @@ export function ProductOfferings() {
               </Button>
             </div>
             <div className="order-1 lg:order-2 animate-slide-in-right">
-              <div className="relative hover-lift">
+              <div className="relative hover-lift neon-border rounded-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="Advanced casino management dashboard with real-time analytics" 
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="CMD Casino Management Dashboard with elegant interface" 
                   className="rounded-xl shadow-2xl w-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent rounded-xl"></div>
+                <div className="absolute top-4 left-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  CMD Dashboard
+                </div>
               </div>
             </div>
           </div>
@@ -87,13 +90,16 @@ export function ProductOfferings() {
         <div className="mb-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="relative">
+              <div className="relative hover-lift morphing-shape">
                 <img 
-                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="Advanced biometric security system for casino player management" 
+                  src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="ProSys Advanced Player Management System" 
                   className="rounded-xl shadow-2xl w-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-accent/20 to-transparent rounded-xl"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-accent/30 to-transparent rounded-xl"></div>
+                <div className="absolute top-4 right-4 bg-accent/90 text-black px-3 py-1 rounded-full text-sm font-semibold">
+                  ProSys
+                </div>
               </div>
             </div>
             <div>
@@ -165,13 +171,16 @@ export function ProductOfferings() {
               </Button>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="relative">
+              <div className="relative hover-lift">
                 <img 
-                  src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                  alt="Modern sports betting kiosk with touch interface in casino environment" 
+                  src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Sports Betting Kiosks with modern touch interfaces" 
                   className="rounded-xl shadow-2xl w-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
+                <div className="absolute bottom-4 left-4 bg-gradient-to-r from-primary to-accent text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Sports Betting Kiosks
+                </div>
               </div>
             </div>
           </div>

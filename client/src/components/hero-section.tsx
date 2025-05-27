@@ -11,11 +11,24 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
-          alt="Modern tech workspace with casino technology displays" 
+          src="https://images.unsplash.com/photo-1596838132731-3301c3fd4317?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
+          alt="Elegant casino cards and gaming environment" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-primary/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-primary/25"></div>
+        
+        {/* Floating particles effect */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="particles" style={{left: '10%', animationDelay: '0s'}}></div>
+          <div className="particles" style={{left: '20%', animationDelay: '0.5s'}}></div>
+          <div className="particles" style={{left: '30%', animationDelay: '1s'}}></div>
+          <div className="particles" style={{left: '40%', animationDelay: '1.5s'}}></div>
+          <div className="particles" style={{left: '50%', animationDelay: '2s'}}></div>
+          <div className="particles" style={{left: '60%', animationDelay: '2.5s'}}></div>
+          <div className="particles" style={{left: '70%', animationDelay: '3s'}}></div>
+          <div className="particles" style={{left: '80%', animationDelay: '3.5s'}}></div>
+          <div className="particles" style={{left: '90%', animationDelay: '4s'}}></div>
+        </div>
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

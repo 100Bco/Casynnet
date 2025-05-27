@@ -19,7 +19,7 @@
   --primary-foreground: 0 0% 100%;
   --secondary: 0 0% 87%;
   --secondary-foreground: 0 0% 0%;
-  --accent: 46 100% 53%; /* Highlight Yellow #FFC709 */
+  --accent: 43 96% 56%; /* Elegant Gold #F4C430 */
   --accent-foreground: 0 0% 0%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;
@@ -265,6 +265,69 @@ html {
 .parallax {
   transform: translateZ(0);
   will-change: transform;
+}
+
+/* Advanced animation effects */
+@keyframes particles {
+  0% { transform: translateY(0px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-1000px) rotate(720deg); opacity: 0; }
+}
+
+@keyframes neon-glow {
+  0%, 100% { box-shadow: 0 0 5px hsl(var(--primary)), 0 0 10px hsl(var(--primary)), 0 0 15px hsl(var(--primary)); }
+  50% { box-shadow: 0 0 10px hsl(var(--primary)), 0 0 20px hsl(var(--primary)), 0 0 30px hsl(var(--primary)); }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.particles {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: hsl(var(--accent));
+  animation: particles 3s linear infinite;
+}
+
+.neon-border {
+  animation: neon-glow 2s ease-in-out infinite alternate;
+}
+
+.typing-effect {
+  overflow: hidden;
+  border-right: 2px solid hsl(var(--accent));
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
+}
+
+/* Enhanced gradient backgrounds */
+.gradient-bg-1 {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.gradient-bg-2 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gradient-bg-3 {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* Morphing shapes */
+@keyframes morph {
+  0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+}
+
+.morphing-shape {
+  animation: morph 8s ease-in-out infinite;
 }
 
 /* Stagger animation delays */
