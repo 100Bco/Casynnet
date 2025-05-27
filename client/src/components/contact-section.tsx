@@ -100,8 +100,8 @@ export function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="py-8">
-            <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-gray-800 mb-6">
-              Get in Touch with <span className="text-primary">Casyn</span>
+            <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-gray-800 mb-6 whitespace-nowrap">
+              Get in Touch with <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Casyn</span>
             </h2>
             <p className="text-xl text-gray-700 mb-12">
               Whether you're interested in our products, partnerships, or have general inquiries, our team is here to assist you.
