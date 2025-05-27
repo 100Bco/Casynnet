@@ -207,6 +207,14 @@ html {
   margin-bottom: 0.5rem;
 }
 
+/* Gradient Text for Casyn */
+.gradient-text {
+  background: linear-gradient(135deg, #1736F5, #F4C430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 /* Modern Animation utilities */
 @keyframes fadeInUp {
   from {

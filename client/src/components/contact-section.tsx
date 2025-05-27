@@ -101,7 +101,7 @@ export function ContactSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="py-8">
             <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-gray-800 mb-6 whitespace-nowrap">
-              Get in Touch with <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Casyn</span>
+              Get in Touch with <span className="gradient-text">Casyn</span>
             </h2>
             <p className="text-xl text-gray-700 mb-12">
               Whether you're interested in our products, partnerships, or have general inquiries, our team is here to assist you.
