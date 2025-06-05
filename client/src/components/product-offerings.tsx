@@ -9,7 +9,7 @@ export function ProductOfferings() {
   const cmdFeatures = [
     { icon: BarChart3, title: 'Live Metrics', description: 'Real-time performance and reporting' },
     { icon: Users, title: 'Staff Management', description: 'Comprehensive team tracking tools' },
-    { icon: CreditCard, title: 'Payout Systems', description: 'Integrated bonus and reward management' },
+    { icon: CreditCard, title: 'Financial Reports', description: 'Financial transactions and match performance' },
     { icon: Download, title: 'Export Data', description: 'Customizable dashboard exports' }
   ];
 
@@ -17,12 +17,12 @@ export function ProductOfferings() {
     { icon: Fingerprint, title: 'Biometric Verification', description: 'Face and palm recognition' },
     { icon: BarChart3, title: 'Match Tracking', description: 'Real-time match reports with user ID and timestamps' },
     { icon: Crown, title: 'VIP Management', description: 'Segmentation and access controls' },
-    { icon: CreditCard, title: 'Bonus Rewards', description: 'High roller settings and birthday match bonuses' }
+    { icon: CreditCard, title: 'Bonus Rewards', description: 'New reward system with high roller settings separate' }
   ];
 
   const kioskFeatures = [
     { icon: Smartphone, title: 'User-Friendly Interface', description: 'Real-time odds and betting' },
-    { icon: BarChart3, title: 'Daily Reporting', description: 'Simplified compliance with easy scan of winning tickets' },
+    { icon: BarChart3, title: 'Daily Reporting', description: 'Simplified compliance with easy scan of winning tickets for fast, clear reports' },
     { icon: Settings, title: 'Customizable Hardware', description: 'Tailored to your space' },
     { icon: Scale, title: 'Regulatory Compliance', description: 'Meets regional requirements' }
   ];

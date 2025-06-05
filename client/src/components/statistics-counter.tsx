@@ -67,7 +67,7 @@ export function StatisticsCounter() {
     },
     {
       icon: Users,
-      value: 500000,
+      value: 50000,
       suffix: '+',
       label: 'Active Players',
       description: 'Daily active gaming users'
@@ -81,7 +81,7 @@ export function StatisticsCounter() {
     },
     {
       icon: Award,
-      value: 25,
+      value: 15,
       suffix: '+',
       label: 'Industry Awards',
       description: 'Recognition for excellence'
