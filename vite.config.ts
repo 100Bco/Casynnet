@@ -9,11 +9,11 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   plugins: [react()],
   
-  // 1. Chỉ đường cho Vite vào folder "client" để tìm index.html
+  // 1. Chỉ đường vào client
   root: path.resolve(__dirname, "client"),
 
   build: {
-    // 2. Build xong thì ném kết quả ra folder "dist" ở ngoài cùng
+    // 2. Build ra folder dist ở ngoài cùng
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
   },
@@ -22,6 +22,9 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
       "@shared": path.resolve(__dirname, "shared"),
+      
+      // 👉 DÒNG NÀY ĐỂ SỬA LỖI CỦA BẠN:
+      "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
 });
